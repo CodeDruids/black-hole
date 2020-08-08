@@ -185,10 +185,10 @@ class BlackHole
      *
      * @see https://www.php.net/manual/en/language.oop5.magic.php#object.debuginfo
      *
-     * @return mixed[]  Only the class name
+     * @return mixed[]  No debug information
      */
     public function __debugInfo()
     {
-        return ['class' => static::class];
+        return [];
     }
 }

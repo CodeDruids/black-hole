@@ -68,6 +68,7 @@ class BlackHoleTest extends TestCase
 
     /**
      * @test
+     * @requires PHP >= 7.4
      */
     public function testSerializationOverloading()
     {
@@ -114,12 +115,12 @@ class BlackHoleTest extends TestCase
     public function testObjectDump()
     {
         $test = new BlackHole();
-        $expected = BlackHole::class." Object\n(\n    [class] => ".BlackHole::class."\n)\n";
+        $expected = BlackHole::class." Object\n(\n)\n";
         $this->assertEquals($expected, print_r($test, true));
         ob_start();
         var_dump($test);
         $result = ob_get_clean();
-        $this->assertStringStartsWith(__FILE__.":120:\nclass ".BlackHole::class."#", $result);
+        $this->assertStringStartsWith(__FILE__.":121:\nclass ".BlackHole::class."#", $result);
         $this->assertStringEndsWith(" (0) {\n}\n", $result);
     }
 }
