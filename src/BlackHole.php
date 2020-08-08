@@ -82,9 +82,4 @@ class BlackHole
     {
         return [];
     }
-
-    public function __clone()
-    {
-        // deliberately empty
-    }
 }

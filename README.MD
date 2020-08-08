@@ -37,7 +37,6 @@ $test->e("f");
 var_dump($test);
 echo $test;
 $test();
-$test2 = clone $test;
 ```
 
 This can be useful when you need a placeholder object, or want the ability to switch a class alias to remove any
