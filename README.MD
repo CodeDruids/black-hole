@@ -1,10 +1,10 @@
 # BlackHole
 
-[![Latest release](http://img.shields.io/github/release/CodeDruids/black-hole.svg)](https://github.com/CodeDruids/black-hole/releases)
-[![Build Status](https://img.shields.io/travis/CodeDruids/black-hole/master.svg)](https://travis-ci.org/CodeDruids/black-hole)
-[![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/CodeDruids/black-hole.svg)](https://scrutinizer-ci.com/g/CodeDruids/black-hole/)
-[![Code Quality](https://img.shields.io/scrutinizer/g/CodeDruids/black-hole.svg)](https://scrutinizer-ci.com/g/CodeDruids/black-hole/)
-[![Software License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Latest release](https://img.shields.io/github/v/tag/CodeDruids/black-hole?sort=semver&label=release)](https://github.com/CodeDruids/black-hole/releases)
+[![Build Status](https://img.shields.io/travis/CodeDruids/black-hole/stable)](https://travis-ci.org/CodeDruids/black-hole)
+[![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/CodeDruids/black-hole)](https://scrutinizer-ci.com/g/CodeDruids/black-hole/)
+[![Code Quality](https://img.shields.io/scrutinizer/g/CodeDruids/black-hole)](https://scrutinizer-ci.com/g/CodeDruids/black-hole/)
+[![Software License](https://img.shields.io/github/license/CodeDruids/black-hole?color=blue)](LICENSE)
 
 BlackHole is a PHP testing class that ignores anything done to it.
 
